@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Symlink important binaries
+
+sudo ln -sf "$(which node)" /usr/local/bin/node
+sudo ln -sf "$(which npm)" /usr/local/bin/npm
+sudo ln -sf "$(which npx)" /usr/local/bin/npx

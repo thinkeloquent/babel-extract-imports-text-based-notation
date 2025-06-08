@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Ensure PATH includes your actual system binaries
+export PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"
+
+npm test
